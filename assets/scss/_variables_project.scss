@@ -10,16 +10,10 @@ $PU-Prussianblue: #1B2D53;
 $redorange: #BA5A31;
 
 $primary: $PU-Darkblue !default;
-$secondary: $redorange;
-
-$light: lighten($primary, 75%) !default;
+$secondary: $redorange !default;
 $info: $PU-Darkblue !default;
 $warning: $redorange !default;
 $danger: $redorange !default;
-
-$dark: #403F4C !default;
-$blue: #72A1E5 !default;
-$orange: #BA5A31 !default;
 
 $td-enable-google-fonts: true;
 
