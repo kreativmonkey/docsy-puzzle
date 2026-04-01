@@ -9,12 +9,11 @@ $PU-Brilliantgreen: #61B44B;
 $PU-Prussianblue: #1B2D53;
 $redorange: #BA5A31;
 
-$primary: $PU-Darkblue !default;
-$td-navbar-bg-color: $primary !default;
-$secondary: $redorange !default;
-$info: $PU-Darkblue !default;
-$warning: $redorange !default;
-$danger: $redorange !default;
+// Override Bootstrap's default primary color - NO !default
+$primary: $PU-Darkblue;
+
+// Use primary for navbar - NO !default
+$td-navbar-bg-color: $primary;
 
 $td-enable-google-fonts: true;
 
