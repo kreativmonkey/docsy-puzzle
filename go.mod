@@ -1,3 +1,3 @@
-module github.com/kreativmonkey/docsy-puzzle
+module github.com/puzzle/docsy-puzzle
 
 go 1.18
