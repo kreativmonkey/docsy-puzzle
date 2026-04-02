@@ -15,7 +15,8 @@ $primary: $PU-Darkblue;
 // Use primary for navbar - NO !default
 $td-navbar-bg-color: $primary;
 
-$td-enable-google-fonts: true;
+// Disable Google Fonts - using self-hosted fonts
+$td-enable-google-fonts: false;
 
-$google_font_name: "Roboto";
-$google_font_family: "Roboto:300,300i,400,400i,700,700i";
+// Use Roboto as the main font
+$font-family-sans-serif: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
